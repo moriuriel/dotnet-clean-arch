@@ -10,5 +10,3 @@ public interface ICategoryRepository
     Task<Category> UpdateAsync(Category category);
     Task<Category> RemoveAsync(Category category);
 }
-
-

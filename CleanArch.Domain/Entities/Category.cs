@@ -2,10 +2,8 @@
 
 namespace CleanArch.Domain.Entities;
 
-public sealed class Category
+public sealed class Category: Entity
 {
-    public Guid Id { get; private set; }
-
     public string Name { get; private set; } = string.Empty;
 
     public ICollection<Product> Products { get; private set; }
@@ -18,9 +16,9 @@ public sealed class Category
 
     public Category(string name, Guid id)
     {
-        bool isValidId = Guid.TryParse(id.ToString(), out var guidOutput);
+        DomainExceptionValidation.When(string.IsNullOrEmpty(id.ToString()), "Invalid Id type.");
 
-        DomainExceptionValidation.When(isValidId, "Invalid Id value");
+        ValidateDomain(name);
         Name = name;
         Id = id;
     }

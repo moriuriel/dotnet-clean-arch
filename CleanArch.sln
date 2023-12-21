@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{AEDBE09C-DE62-4D67-9B47-CDBB75C54652}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Tests", "CleanArch.Tests\CleanArch.Tests.csproj", "{5F5FCF2D-2371-44C3-84F5-5775FC754B05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AEDBE09C-DE62-4D67-9B47-CDBB75C54652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEDBE09C-DE62-4D67-9B47-CDBB75C54652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEDBE09C-DE62-4D67-9B47-CDBB75C54652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5FCF2D-2371-44C3-84F5-5775FC754B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5FCF2D-2371-44C3-84F5-5775FC754B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5FCF2D-2371-44C3-84F5-5775FC754B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5FCF2D-2371-44C3-84F5-5775FC754B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
